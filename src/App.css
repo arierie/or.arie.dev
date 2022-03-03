@@ -30,7 +30,18 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 460px;
+}
 
+.Socials {
+  margin-top: 8px;
+}
+
+.Socials a {
+  font-size: 16px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 500;
+  color: black;
+  margin: 8px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
