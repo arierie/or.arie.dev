@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+import logo from './jelimet.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <img src={logo} className="Logo" alt="logo" />
+        <div className="Title">ordonnarie</div>
+        <div className="Subtitle">A solo creative computing exploration project coming up into a web3 ecosystem. Music, generative art, illustration, and any other possibilities are up. Stay tune and wait for the next update.</div>
     </div>
   );
 }
